@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(cut -c 1 Acrostic | tr -d '\n')\n"
+printf "$(cut -c 1 | tr -d '\n')\n"

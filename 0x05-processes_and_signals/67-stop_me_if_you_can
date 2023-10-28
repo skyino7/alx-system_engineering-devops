@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#highlander
+
+PID="7-highlander"
+pkill -f "$PID"

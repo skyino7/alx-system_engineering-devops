@@ -41,10 +41,9 @@ int main(void)
 			perror("Fork failed");
 			return (1);
 		}
+	}
 
-}
-
-infinite_while();
+	infinite_while();
 
 return (0);
 

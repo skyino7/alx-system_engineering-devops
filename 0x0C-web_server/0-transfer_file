@@ -11,7 +11,7 @@ USERNAME="$3"
 REMOTE_SSH_KEY="$4"
 
 if [ $# -eq 3 ]; then
-    scp -o StrictHostKeyChecking=no "$LOCAL_FILE" "$USERNAME"@"$IP":~/
+    scp -o StrictHostKeyChecking=no "$LOCAL_FILE" "$USERNAME@$IP":~/
 else
-    scp -o StrictHostKeyChecking=no -i "$REMOTE_SSH_KEY" "$LOCAL_FILE" "$USERNAME"@"IP":~/
+    scp -o StrictHostKeyChecking=no -i "$REMOTE_SSH_KEY" "$LOCAL_FILE" "$USERNAME@$IP":~/
 fi

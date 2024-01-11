@@ -21,7 +21,7 @@ frontend front
     bind *:80
     bind *:443 ssl crt /etc/letsencrypt/live/www.codaworld.tech/fullchain.pem
     redirect scheme https if !{ ssl_fc }
-    default_backend backend
+    default_backend back
 
 
 backend back

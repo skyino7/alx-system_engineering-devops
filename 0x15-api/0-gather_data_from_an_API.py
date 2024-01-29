@@ -17,16 +17,15 @@ def main():
     not_done = f'{url}todos?userId={employee_id}&completed=false'
 
     user_data = requests.get(f'{url}{employee_url}').json()
-    employee_name = user_data[0].get("name")
+    empN = user_data[0].get("name")
 
     todos_data = requests.get(f'{url}{todos}').json()
     todos_done = requests.get(f'{url}{done}').json()
 
-    done_tasks = len(todos_done)
-    total_tasks = len(todos_data)
+    doneTask = len(todos_done)
+    totalTask = len(todos_data)
 
-    print(f'Employee {employee_name} is done with tasks '
-          f'({done_tasks} / {total_tasks}): ')
+    print(f'Employee {empN} is done with tasks ({doneTask} / {totalTask}): ')
     for task in todos_done:
         print(f'\t {task.get("title")}')
 

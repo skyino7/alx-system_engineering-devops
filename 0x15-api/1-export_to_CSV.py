@@ -7,8 +7,7 @@ import sys
 
 
 def main():
-    """Script that, using this REST API, for a given employee ID,
-    returns information about his/her TODO list progress."""
+    """Script to export data in the CSV format"""
 
     employee_id = sys.argv[1]
 

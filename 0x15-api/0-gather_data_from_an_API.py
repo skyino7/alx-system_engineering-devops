@@ -24,8 +24,8 @@ def main():
     done_tasks = len(todos_done)
     total_tasks = len(todos_data)
 
-    print(
-        f'Employee {employee_name} is done with tasks({done_tasks}/{total_tasks}):')
+    print(f'Employee {employee_name} is done with tasks '
+          f'({done_tasks} / {total_tasks}): ')
     for task in todos_done:
         print(f'\t {task.get("title")}')
 

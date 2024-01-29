@@ -14,6 +14,7 @@ def main():
     employee_url = f'{url}users?id={employee_id}'
     todos = f'{url}todos?userId={employee_id}'
     done = f'{url}todos?userId={employee_id}&completed=true'
+    not_done = f'{url}todos?userId={employee_id}&completed=false'
 
     user_data = requests.get(f'{url}{employee_url}').json()
     employee_name = user_data[0].get("name")

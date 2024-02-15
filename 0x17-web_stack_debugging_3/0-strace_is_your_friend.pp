@@ -1,6 +1,6 @@
 #Puppet
 exec { 'replace_extension':
-  command => '/usr/bin/sed -i "s/.phpp/.php/g" /var/www/html/wp-settings.php',
+  command => '/bin/sed -i "s/.phpp/.php/g" /var/www/html/wp-settings.php',
   path    => '/usr/bin:/usr/sbin:/bin',
   notify  => Exec['restart_apache_service'],
 }

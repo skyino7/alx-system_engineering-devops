@@ -17,7 +17,7 @@
   * Syntax error in the file `/var/www/html/wp-settings`.php
 
 ### Timeline
-- 9:40 M UTC:
+- 9:40 PM UTC:
   * The Puppet manifest, intended to replace ".phpp" occurrences in `/var/www/html/wp-settings.php`, was applied.
 - 10:05 PM UTC:
   * Monitoring detected a surge in HTTP 503 errors.

@@ -5,8 +5,8 @@
 ### Issue Summary:
 
 - Duration:
-   * Start Time: February 15, 2024, 10:00 AM UTC
-   * End Time: February 15, 2024, 10:15 AM UTC
+   * Start Time: February 15, 2024, 9:40 PM UTC
+   * End Time: February 15, 2024, 10:15 PM UTC
 
 - Impact:
   * The web application experienced a 15-minute outage.

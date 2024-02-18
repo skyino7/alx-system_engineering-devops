@@ -22,7 +22,7 @@
 - 10:05 PM UTC:
   * Monitoring detected a surge in HTTP 503 errors.
   * Engineers were alerted.
-- 10:10 AM UTC:
+- 10:10 PM UTC:
   * Initial investigation identified a syntax error in the Puppet manifest.
   * Strace was used to trace the execution and identify the failing command.
 - 10:13 PM UTC:
